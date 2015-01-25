@@ -28,7 +28,7 @@ $ apt-get install git build-essential
 $ git clone https://github.com/golang/go.git
 $ git checkout release-branch.go1.4
 $ ./src/all.bash
-$ echo "PATH=/bin/go:$PATH" >> ~/.bashrc
+$ echo "PATH=./bin/go:$PATH" >> ~/.bashrc
 $ go version
 go1.4.1
 ```

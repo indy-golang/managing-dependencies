@@ -1,4 +1,4 @@
 FROM debian:jessie
 
 RUN apt-get update
-RUN apt-get install golang -y --force-yes
+RUN apt-get install git golang -y --force-yes

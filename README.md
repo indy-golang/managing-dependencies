@@ -1,4 +1,16 @@
-Installation
+###Context
+
+Go is not always easy to obtain and, furthermore, not easy to maintain.
+
+Go code must be written in a workspace.
+
+* src contains Go source files organized into packages (one package per directory),
+* pkg contains package objects, and
+* bin contains executable commands.
+
+Meaning that your code is foced to live alongside your dependencies. go build pulls dependencies from your workspace to build your code without explicit linking.
+
+###Installation
 
 1. apt-get install golang
 
